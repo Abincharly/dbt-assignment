@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: snowflake_sample_data
+    description: 'A sample database provided by Snowflake'
+    database: snowflake_sample_data
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: store_sales
+        description: 'Store sales data'
+      - name: catalog_sales
+      - name: web_sales
+      - name: item
+      - name: date_dim
+      - name: customer_address
+      - name: store
+      - name: customer
+      - name: promotion
+
